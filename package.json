@@ -2,17 +2,17 @@
   "name": "busbud-passbook",
   "description": "iOS Passbook for the Node hacker fork of npm module passbook",
   "homepage": "https://github.com/busbud/node-passbook",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "./lib/index.js",
   "bin": {
     "node-passbook": "./bin/node-passbook"
   },
   "dependencies": {
-    "async": "^0.9.0",
-    "cli": "0.6.5"
+    "async": "^2.6.2",
+    "cli": "1.0.1"
   },
   "devDependencies": {
-    "mocha": "2.1.0"
+    "mocha": "6.0.2"
   },
   "scripts": {
     "test": "mocha"
