@@ -10,7 +10,7 @@
   "dependencies": {
     "async": "^2.6.2",
     "cli": "1.0.1",
-    "snyk": "^1.189.0"
+    "snyk": "^1.319.1"
   },
   "devDependencies": {
     "mocha": "6.0.2"
@@ -18,7 +18,7 @@
   "scripts": {
     "test": "mocha",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "keywords": [
     "iOS",
